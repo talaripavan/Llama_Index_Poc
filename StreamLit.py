@@ -30,10 +30,11 @@ if "messages" not in st.session_state.keys():
         {"role" : "assistant" , "content" : "Ask me a question !"}
     ]
 
-chat_engine = index.as_query_engine()
+# In place of best [as a chat_mode] we can use all these modules [https://docs.llamaindex.ai/en/stable/module_guides/deploying/chat_engines/modules/]
+chat_engine = index.as_chat_engine(chat_mode="best" , verbose = True ) 
 
-if prompt := st.chat_input("Your question"):
-    st.session_state.messages.append({"role":"user", "content":prompt})
+if input := st.chat_input("Your question"):
+    st.session_state.messages.append({"role":"user", "content":input})
     
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
@@ -42,7 +43,7 @@ for message in st.session_state.messages:
 if st.session_state.messages[-1]["role"] != "assistant":
     with st.chat_message("assistant"):
         with st.spinner("Thinking.."):
-            response = chat_engine.query(prompt)
+            response = chat_engine.chat(input)
             st.write(response.response)
             pprint_response(response,show_source=True)
             message = {"role":"assistance","content": response.response}
