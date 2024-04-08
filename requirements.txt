@@ -1,0 +1,8 @@
+python-dotenv
+openai
+llama-index
+pypdf
+streamlit
+nltk
+llama-index-vector-stores-milvus
+pymilvus
