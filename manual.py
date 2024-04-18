@@ -3,7 +3,7 @@ import psycopg
 hostname = 'localhost'
 database = 'Demo_connect'
 username = 'postgres'
-pwd = 'Pavan!0103'
+pwd = '<your password>'
 port_id = 5432
 
 conn = None
