@@ -60,7 +60,7 @@ if __name__ == '__main__':
     database = '<Database>'
     username = '<username>'
     password = '<password>'
-    port = 5432
+    port = <port_number>
     
     deepeval_db = DeepEvalDatabase(hostname,database,username,password,port)
     
