@@ -1,2 +1,1 @@
-# RAG_DeepEval
-Setting up the RAG pipeline .
+#  Retrieval-Augmented Generation
