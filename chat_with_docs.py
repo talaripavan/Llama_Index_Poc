@@ -10,7 +10,7 @@ from llama_index.vector_stores.milvus import MilvusVectorStore
 
 
 load_dotenv()
-# Path of our documents in our system
+# Path of our documents in your system
 documents_path = "./documents"
 
 Settings.llm = OpenAI(model="gpt-3.5-turbo")
