@@ -7,7 +7,7 @@ from llama_index.core.query_engine import RetrieverQueryEngine
 from llama_index.postprocessor.flag_embedding_reranker import FlagEmbeddingReranker
 
 collection_name = os.getenv('COLLECTION_NAME')
-vector_store = MilvusVectorStore(collection_name=collection_name, dim=1536, overwrite=False, uri="http://192.168.29.44:19530")
+vector_store = MilvusVectorStore(collection_name=collection_name, dim=1536, overwrite=False, uri="http")
 index = VectorStoreIndex.from_vector_store(vector_store)
 retriever = VectorIndexRetriever(index=index,similarity_top_k=3)
 response_synthesizer = get_response_synthesizer()
