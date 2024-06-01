@@ -3,7 +3,7 @@
 This repository is all about RAG, a technique that's like having a super-powered search engine for your company's data. Imagine a personalized ChatGPT, but instead of chatting about anything, it helps you find and use the specific knowledge you need – fast!
 
 ## Introduction
-This repository delves into the world of Retrieval-Augmented Generation (RAG), a cutting-edge technique designed to empower large language models (LLMs) with the power of information retrieval. By combining these two forces, RAG unlocks the potential for generating incredibly informative and contextually relevant text, making it a game-changer for applications like chatbots, customer service automation, and more.
+This repository delves into the Retrieval-Augmented Generation (RAG), a cutting-edge technique designed to empower large language models (LLMs) with the power of information retrieval. By combining these two forces, RAG unlocks the potential for generating incredibly informative and contextually relevant text, making it a game-changer for applications like chatbots, customer service automation, and more.
 
 ## Repository Contents
 
