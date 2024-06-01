@@ -6,3 +6,11 @@ streamlit
 nltk
 llama-index-vector-stores-milvus
 pymilvus
+python-dotenv
+docx2txt
+llama-index-embeddings-huggingface
+llama-index-retrievers-bm25
+llama-index-llms-openai
+llama-index-postprocessor-colbert-rerank
+llama-index-postprocessor-flag-embedding-reranker
+git+https://github.com/FlagOpen/FlagEmbedding.git
