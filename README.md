@@ -21,5 +21,5 @@ This repository delves into the Retrieval-Augmented Generation (RAG), a cutting-
 
 - **multi_query.py** : This approach breaks down complex user queries into smaller, more manageable sub-queries. By doing this, the system can retrieve more relevant documents for each sub-query and then combine the results to answer the original user query. This can lead to more accurate and informative responses.
 
-!(https://github.com/talaripavan/RAG_Poc/blob/main/Sub-queries%20Agent%20Retrieval.png)
+![Alt text](Sub-queries Agent Retrieval.png)
 
